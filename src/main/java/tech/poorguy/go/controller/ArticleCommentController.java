@@ -5,8 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
 import tech.poorguy.go.common.BaseController;
-import tech.poorguy.go.entity.User;
-import tech.poorguy.go.service.IUserService;
 
 /**
  * <p>
@@ -17,8 +15,8 @@ import tech.poorguy.go.service.IUserService;
  * @since 2019-05-23
  */
 @RestController
-@RequestMapping("/user")
-public class UserController extends BaseController<User, IUserService> {
+@RequestMapping("/article-comment")
+public class ArticleCommentController extends BaseController {
 
 }
 

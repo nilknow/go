@@ -1,6 +1,6 @@
 package tech.poorguy.go.service;
 
-import tech.poorguy.go.entity.User;
+import tech.poorguy.go.entity.ArticleContent;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author poorguy
  * @since 2019-05-23
  */
-public interface IUserService extends IService<User> {
+public interface IArticleContentService extends IService<ArticleContent> {
 
 }

@@ -1,8 +1,8 @@
 package tech.poorguy.go.service.impl;
 
-import tech.poorguy.go.entity.User;
-import tech.poorguy.go.mapper.UserMapper;
-import tech.poorguy.go.service.IUserService;
+import tech.poorguy.go.entity.Article;
+import tech.poorguy.go.mapper.ArticleMapper;
+import tech.poorguy.go.service.IArticleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2019-05-23
  */
 @Service
-public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
+public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> implements IArticleService {
 
 }

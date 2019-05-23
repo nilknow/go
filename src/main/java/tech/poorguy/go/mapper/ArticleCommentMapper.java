@@ -1,6 +1,6 @@
 package tech.poorguy.go.mapper;
 
-import tech.poorguy.go.entity.User;
+import tech.poorguy.go.entity.ArticleComment;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author poorguy
  * @since 2019-05-23
  */
-public interface UserMapper extends BaseMapper<User> {
+public interface ArticleCommentMapper extends BaseMapper<ArticleComment> {
 
 }

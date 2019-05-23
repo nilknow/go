@@ -47,7 +47,7 @@ public class CodeGenerator {
         DataSourceConfig dsc = new DataSourceConfig();
         dsc.setUrl("jdbc:mysql://47.98.129.157:3306/go?useUnicode=true&useSSL=false&characterEncoding=utf8");
         // dsc.setSchemaName("public");
-        dsc.setDriverName("com.mysql.cj.jdbc.Driver");
+        dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword(";WhpNQG4VTtQ");
         mpg.setDataSource(dsc);
@@ -64,7 +64,7 @@ public class CodeGenerator {
         strategy.setSuperEntityClass("tech.poorguy.go.common.BaseEntity");
         strategy.setEntityLombokModel(true);
         strategy.setRestControllerStyle(true);
-        strategy.setSuperControllerClass("tech.poorguy.go.common.common");
+        strategy.setSuperControllerClass("tech.poorguy.go.common.BaseController");
         strategy.setInclude(scanner("表名，多个英文逗号分割").split(","));
         strategy.setSuperEntityColumns("id");
         strategy.setControllerMappingHyphenStyle(true);

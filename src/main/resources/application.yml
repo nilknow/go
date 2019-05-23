@@ -8,5 +8,15 @@ spring:
     url: jdbc:mysql://47.98.129.157:3306/go?useUnicode=true&useSSL=false&characterEncoding=utf8
     username: root
     password: ;WhpNQG4VTtQ
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 47.98.129.157
+    lettuce:
+      pool:
+        max-active: 20
+        max-idle: 10
+        max-wait: -1
+        min-idle: 0
+    port: 6379
+    timeout: 3000
 

@@ -2,6 +2,8 @@ package tech.poorguy.go.entity;
 
 import tech.poorguy.go.common.BaseEntity;
 import java.time.LocalDateTime;
+import java.util.Date;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -25,9 +27,11 @@ private static final long serialVersionUID=1L;
 
     private String title;
 
-    private LocalDateTime createTime;
+    private Date createTime;
 
-    private LocalDateTime updateTime;
+    private Date updateTime;
+
+    private Date recentAccess;
 
     /**
      * 点赞数

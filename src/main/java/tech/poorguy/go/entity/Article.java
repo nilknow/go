@@ -23,7 +23,7 @@ public class Article extends BaseEntity {
 
 private static final long serialVersionUID=1L;
 
-    private Long content;
+    private Long contentId;
 
     private String title;
 
@@ -31,7 +31,6 @@ private static final long serialVersionUID=1L;
 
     private Date updateTime;
 
-    private Date recentAccess;
 
     /**
      * 点赞数
@@ -43,7 +42,7 @@ private static final long serialVersionUID=1L;
      */
     private Integer downCount;
 
-    private Long author;
+    private Long authorId;
 
     /**
      * 阅读数

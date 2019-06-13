@@ -2,9 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Welcome to poorguy's blog</title>
+    <meta name="author" content="poorguy">
+    <meta name="description" content="personal blog about programming, math and so on">
+    <meta name="keywords" content="blog, java, math, programming, python, database">
+    <meta name="robots" content="all">
+    <meta name="copyright" content="本页版权poorguy所有。All Rights Reserved"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="/static/layui/css/layui.css" media="all">
 </head>
 <body>
+<ul class="layui-nav">
+    <li class="layui-nav-item">
+        <a href="index.html">首页</a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="article.html">文章分类</a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="recommend.html">资源推荐</a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="friend.html">友情链接</a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="">控制台<span class="layui-badge">9</span></a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="">个人中心<span class="layui-badge-dot"></span></a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="javascript:;"><img src="//t.cn/RCzsdCq" class="layui-nav-img">我</a>
+        <dl class="layui-nav-child">
+            <dd><a href="../../templates/article-write.html">创作文章</a><hr></dd>
+            <dd><a href="javascript:;">修改信息</a></dd>
+            <dd><a href="javascript:;">安全管理</a></dd>
+            <dd><a href="javascript:;">退了</a></dd>
+        </dl>
+    </li>
+    <li class="layui-nav-item">
+        <a href="login.html">登录</a>
+    </li>
+</ul>
 
+<script src="/static/layui/layui.all.js" charset="utf-8"></script>
+<script src="/static/js/jquery-3.3.1.min.js" charset="utf-8"></script>
+
+<script>
+    layui.use('element', function(){
+        var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
+    });
+</script>
 </body>
 </html>

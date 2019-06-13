@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
 import tech.poorguy.go.common.BaseController;
+import tech.poorguy.go.entity.ArticleTag;
+import tech.poorguy.go.service.IArticleTagService;
 
 /**
  * <p>
@@ -16,7 +18,7 @@ import tech.poorguy.go.common.BaseController;
  */
 @RestController
 @RequestMapping("/article-tag")
-public class ArticleTagController extends BaseController {
+public class ArticleTagController extends BaseController<ArticleTag, IArticleTagService> {
 
 }
 

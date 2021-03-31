@@ -23,7 +23,7 @@
         <mybatis-plus.version>3.1.1</mybatis-plus.version>
         <fastjson.version>1.2.39</fastjson.version>
         <lombok.version>1.18.8</lombok.version>
-        <guava.version>27.0.1-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <hibernate-validator.version>5.4.3.Final</hibernate-validator.version>
         <velocity.version>2.0</velocity.version>
         <druid.version>1.1.10</druid.version>

@@ -21,7 +21,7 @@
         <swagger.version>2.9.2</swagger.version>
         <jdbc.version>5.1.47</jdbc.version>
         <mybatis-plus.version>3.1.1</mybatis-plus.version>
-        <fastjson.version>1.2.39</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <lombok.version>1.18.8</lombok.version>
         <guava.version>27.0.1-jre</guava.version>
         <hibernate-validator.version>5.4.3.Final</hibernate-validator.version>
